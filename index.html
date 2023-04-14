@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitcoin Ticker</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script>
+    // Register the bitcoin-ticker component here
+  </script>
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      <!-- Add the Google Fonts loader script to your assets -->
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    </a-assets>
+
+    <a-text
+      bitcoin-ticker
+      position="0 1.5 -4"
+      text="width: 7; color: #c7c7c7; align: center; font: exo2bold; side: double"
+      scale="1.69839 1.34039 5"
+      value="">
+    </a-text>
+
+    <!-- Add the camera and any other 3D content here -->
+    <a-camera position="0 1.6 0"></a-camera>
+  </a-scene>
+</body>
+</html>
